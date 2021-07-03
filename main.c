@@ -14,7 +14,7 @@ int gameWLCondi(){
     else if((indexs[1] == indexs[4] and indexs[4] == indexs[7]) or (indexs[2] == indexs[5] and indexs[5] == indexs[8]) or (indexs[3] == indexs[6] and indexs[6] == indexs[9])){
         return 1;
     }
-    // Diganol
+    // Diagonal
     else if((indexs[1] == indexs[5] and indexs[5] == indexs[9]) or (indexs[3] == indexs[5] and indexs[5] == indexs[7])){
         return 1;
     }
